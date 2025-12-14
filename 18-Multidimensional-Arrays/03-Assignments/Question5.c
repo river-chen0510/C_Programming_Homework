@@ -8,7 +8,6 @@ float random_num_generate(){
     randomNum = (float)rand() / (RAND_MAX - 1);
 
     return randomNum;
-
 }
 
 void copy_num(int row, int col, float source[row][col], float target[row][col]){
@@ -26,7 +25,7 @@ void print_arrays(int row2, int col2, float source2[row2][col2], float target2[r
 
     copy_num(row2, col2, source2, target2);
 
-    printf("source array: \n");
+    printf("Source array: \n");
     for(int i = 0; i < row2; i++){
         for(int j = 0; j < col2; j++){
             printf("%.2f \t", source2[i][j]);
@@ -36,7 +35,7 @@ void print_arrays(int row2, int col2, float source2[row2][col2], float target2[r
 
     printf("\n");
 
-    printf("target array: \n");
+    printf("Target array: \n");
     for(int i = 0; i < row2; i++){
         for(int j = 0; j < col2; j++){
             printf("%.2f \t", target2[i][j]);
