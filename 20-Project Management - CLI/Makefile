@@ -12,3 +12,4 @@ make: $(SCRS)
 clean:
 	rm main.out
 	rm -r main.out.dSYM
+ 
